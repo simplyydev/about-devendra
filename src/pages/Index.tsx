@@ -85,8 +85,8 @@ const Index = () => {
                   />
                   <InterestCard
                     icon={<Palette className="h-8 w-8" />}
-                    title="Design"
-                    description="Creating beautiful, intuitive interfaces that provide exceptional user experiences."
+                    title="What We Do"
+                    description="Empowering Businesses with the right consultancy, investments, and legal services."
                   />
                 </div>
               </div>
