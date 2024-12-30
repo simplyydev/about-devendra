@@ -1,4 +1,4 @@
-import { Briefcase, Code, Linkedin, Moon, Palette, School, Sun } from "lucide-react";
+import { Briefcase, Camera, Code, Linkedin, Moon, Palette, School, Sun } from "lucide-react";
 import { Section } from "@/components/Section";
 import { SocialButton } from "@/components/SocialButton";
 import { InterestCard } from "@/components/InterestCard";
@@ -50,9 +50,9 @@ const Index = () => {
                     label="LinkedIn"
                   />
                   <SocialButton
-                    href="https://motogrowthmedia.com"
-                    icon={<Briefcase className="h-5 w-5" />}
-                    label="Business"
+                    href="https://instagram.com/simplyy.dev"
+                    icon={<Camera className="h-5 w-5" />}
+                    label="Instagram"
                   />
                   <SocialButton
                     href="https://www.skool.com/motogrowth-media-9603"
