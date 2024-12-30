@@ -54,8 +54,18 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    @apply bg-background;
+  }
+  
+  /* Apply transitions only to background and non-text elements */
+  .bg-background,
+  .bg-card,
+  .bg-popover,
+  .bg-primary,
+  .bg-secondary,
+  .bg-muted,
+  .bg-accent {
+    transition: background-color 0.15s ease-in-out;
   }
   
   /* Smooth scrolling */

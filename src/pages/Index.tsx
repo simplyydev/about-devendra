@@ -4,6 +4,7 @@ import { SocialButton } from "@/components/SocialButton";
 import { InterestCard } from "@/components/InterestCard";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
+import { Switch } from "@/components/ui/switch";
 import { useEffect, useState } from "react";
 
 const Index = () => {
@@ -17,23 +18,17 @@ const Index = () => {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen w-full bg-background text-foreground transition-colors duration-150">
+    <div className="min-h-screen w-full bg-background text-foreground">
       <div className="container px-4 py-4 mx-auto max-w-4xl">
         {/* Theme Toggle */}
-        <div className="flex justify-end mb-8 animate-fade-in">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="transition-transform hover:scale-110"
-            aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-          >
-            {theme === "dark" ? (
-              <Sun className="h-5 w-5" />
-            ) : (
-              <Moon className="h-5 w-5" />
-            )}
-          </Button>
+        <div className="flex justify-end items-center gap-2 mb-8 animate-fade-in">
+          <Sun className="h-4 w-4" />
+          <Switch
+            checked={theme === "dark"}
+            onCheckedChange={() => setTheme(theme === "dark" ? "light" : "dark")}
+            aria-label="Toggle theme"
+          />
+          <Moon className="h-4 w-4" />
         </div>
 
         <main className="py-8">
