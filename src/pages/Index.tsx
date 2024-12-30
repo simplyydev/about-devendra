@@ -38,24 +38,24 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-3xl blur-3xl" />
               <div className="relative">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-up bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400">
-                  John Doe
+                  Devendra
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 animate-fade-up [animation-delay:200ms]">
-                  Digital Creator & Tech Enthusiast
+                  CEO & Founder at MotoGrowth Media
                 </p>
                 <div className="flex flex-wrap justify-center gap-4 animate-fade-up [animation-delay:400ms]">
                   <SocialButton
-                    href="https://linkedin.com/in/johndoe"
+                    href="https://linkedin.com/in/simplyydev"
                     icon={<Linkedin className="h-5 w-5" />}
                     label="LinkedIn"
                   />
                   <SocialButton
-                    href="https://business.example.com"
+                    href="https://motogrowthmedia.com"
                     icon={<Briefcase className="h-5 w-5" />}
                     label="Business"
                   />
                   <SocialButton
-                    href="https://skool.com/johndoe"
+                    href="https://www.skool.com/motogrowth-media-9603"
                     icon={<School className="h-5 w-5" />}
                     label="Skool"
                   />
@@ -74,7 +74,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-blue-500/5 rounded-3xl blur-3xl" />
               <div className="relative">
                 <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-up">
-                  I'm passionate about creating digital experiences and sharing knowledge. With a background in technology and design, I help businesses and individuals achieve their goals through innovative solutions.
+                I’m Devendra, a 20-year-old entrepreneur and CEO of MotoGrowth Media. My passion lies in redefining success through innovative investment banking, legal services, and marketing strategies. Outside of business, I’m an MMA fighter, track racer, and ethical hacker. My mission is clear: to empower businesses to thrive by embracing challenges and pushing boundaries. Let’s disrupt the status quo and create extraordinary outcomes together.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-up [animation-delay:200ms]">
@@ -96,7 +96,7 @@ const Index = () => {
 
         {/* Copyright Footer */}
         <footer className="py-8 text-center text-sm text-muted-foreground border-t animate-fade-up">
-          <p>© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Devendra. All rights reserved.</p>
         </footer>
       </div>
     </div>
