@@ -74,8 +74,12 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-blue-500/5 rounded-3xl blur-3xl" />
               <div className="relative">
                 <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-up">
-                I’m Devendra, a 20-year-old entrepreneur and CEO of MotoGrowth Media. My passion lies in redefining success through innovative investment banking, legal services, and marketing strategies. Outside of business, I’m an MMA fighter, track racer, and ethical hacker. My mission is clear: to empower businesses to thrive by embracing challenges and pushing boundaries. Let’s disrupt the status quo and create extraordinary outcomes together.
-                </p>
+                Hey there! I’m Dev, a 20-year-old entrepreneur and the CEO of Hailsben, a private fund management firm that dives into hedge funds, trust funds, and equity funds. Before Hailsben, I was at MGM, where I delivered value to Ultra-High-Net-Worth Individuals (UHNWI) and sharpened my approach to high-stakes investment strategies.
+
+When it comes to investing, I stick to a straightforward yet impactful philosophy:
+"You can’t predict. You can prepare." — Howard Marks
+A
+My vision for Hailsben is to transform it into a top-notch investment firm that focuses on creating long-term value and driving strategic financial growth.
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-up [animation-delay:200ms]">
                   <InterestCard
@@ -96,7 +100,7 @@ const Index = () => {
 
         {/* Copyright Footer */}
         <footer className="py-8 text-center text-sm text-muted-foreground border-t animate-fade-up">
-          <p>© {new Date().getFullYear()} Devendra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Powered by Hailsben. All rights reserved.</p>
         </footer>
       </div>
     </div>
