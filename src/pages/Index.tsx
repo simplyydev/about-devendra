@@ -74,7 +74,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-blue-500/5 rounded-3xl blur-3xl" />
               <div className="relative">
                 <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-up">
-                "Hey! I’m Dev, CEO of Hailsben, a private fund management firm specializing in hedge funds, trust funds, and equity funds. I’ve worked with Ultra-High-Net-Worth Individuals (UHNWI), refining high-stakes investment strategies. My approach? "You can’t predict. You can prepare." — Howard Marks. At Hailsben, we’re building a firm that creates lasting value and drives strategic financial growth."
+                "Hey! I’m Dev, CEO of Hailsben, a private fund management firm specializing in hedge funds, trust funds, and equity funds. I’ve worked with Ultra-High-Net-Worth Individuals (UHNWI), refining high-stakes investment strategies. My approach? "You can’t predict. You can prepare.". At Hailsben, we’re building a firm that creates lasting value and drives strategic financial growth."
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-up [animation-delay:200ms]">
                   <InterestCard
