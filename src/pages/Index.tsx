@@ -73,7 +73,7 @@ const Index = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-blue-500/5 rounded-3xl blur-3xl" />
               <div className="relative">
-                <p className="text-justify text-muted-foreground max-w-1xl mx-auto mb-12 animate-fade-up">
+                <p className="text-justify text-muted-foreground max-w-1x2 mx-auto mb-12 animate-fade-up">
                 Hey there! I’m Dev, a 20-year-old entrepreneur and the CEO of Hailsben, a private fund management firm that dives into hedge funds, trust funds, and equity funds.
                 </p>
                 <p className="text-justify text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-up">
